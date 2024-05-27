@@ -1,0 +1,25 @@
+SCHEDA AUTO USATA:
+
+- id                            => UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT 
+- segmento                      => VARCHAR (1)
+- foto                          => TEXT - DEFAULT ( "img/poster.jpg")
+- km                            => INT - NOT NULL
+- casa_costruttrice             => VARCHAR (30) - NOT NULL
+- modello                       => VARCHAR (50) - NOT NULL
+- allestimento                  => VARCHAR (50) - NOT NULL
+- alimentazione                 => VARCHAR (20) - NOT NULL
+- descrizione                   => TEXT
+- dati_motore                   => VARCHAR (40) - NOT NULL
+- prezzo                        => INT - NOT NULL
+- offerta                       => DECIMAL (6, 2) // 9999,99
+- data_di_immatricolazione      => DATE - NOT NULL
+- disponibile                   => TINYINT - NOT NULL
+- trasmissione                  => VARCHAR (20) - NOT NULL
+- trazione                      => VARCHAR (15) - NOT NULL
+- condizioni_del_veicolo        => VARCHAR (50) - NOT NULL
+- colore                        => VARCHAR (30) - NOT NULL
+- consumi                       => FLOAT ( 2, 1)
+- classe_emissioni              => VARCHAR (10)
+- porte                         => TINYINT
+- numero_posti                  => TINYINT
+
